@@ -1,0 +1,13 @@
+.header {
+  height: 64px;
+  line-height: 64px;
+  border-bottom: 1px solid gray;
+  margin-bottom: $medium;
+
+  &__logo {
+    height: $small;
+    width: 98px;
+    margin-left: $medium;
+    padding-left: $small;
+  }
+}

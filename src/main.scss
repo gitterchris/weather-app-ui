@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$small: 8px;
+$medium: 16px;
+$large: 24px;
+
+@import './components/app';
