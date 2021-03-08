@@ -13,4 +13,22 @@ parserOptions:
 plugins:
   - react
   - jest
-rules: {}
+globals:
+  apiURL: true  
+rules:
+  arrow-parens:
+    - error
+    - as-needed
+  array-bracket-spacing:
+    - error
+    - always
+  object-curly-newline:
+    - error
+    - ImportDeclaration: never
+  no-use-before-define:
+    - error
+    - functions: false
+  react/jsx-one-expression-per-line:
+    - off
+  import/no-cycle:
+    - off

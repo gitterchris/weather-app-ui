@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const { merge } = require('webpack-merge');
 const common = require('./webpack.common');
 
@@ -34,4 +35,9 @@ module.exports = merge(common, {
 			}
 		],
 	},
+	plugins: [
+		new webpack.DefinePlugin({
+			apiURL: JSON.stringify('http://localhost:8080/api'),
+		}),
+	],
 });

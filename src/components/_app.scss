@@ -1,1 +1,8 @@
-@import './header/_styles';
+@import './header/styles';
+
+.app {
+  &__content {
+    margin-left: $medium;
+    margin-right: $medium;
+  }
+}

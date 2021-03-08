@@ -2,10 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 
 const Header = () => (
-  <header className="header">
+  <header className="page-header">
     <img
       alt="logo"
-      className="header__logo"
+      className="page-header__logo"
       src={logo}
     />
   </header>
